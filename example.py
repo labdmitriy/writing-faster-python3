@@ -7,4 +7,4 @@ def compute_sum_of_powers():
         TOTAL = TOTAL + x*x
 
 compute_sum_of_powers()
-print(TOTAL)
+# print(TOTAL)

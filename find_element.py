@@ -29,6 +29,7 @@ def while_loop():
 
 from itertools import count
 
+
 def for_loop():
     for number in count(1):
         if (number % 42 == 0) and (number % 43 == 0):
@@ -39,3 +40,16 @@ def list_comprehension():
 
 def generator():
     return next(n for n in count(1) if (n % 42 == 0) and (n % 43 == 0))
+
+
+# Additional solutions
+import math
+
+
+def lcm_gcd():
+    x = 42
+    y = 43
+    return abs(x * y) // math.gcd(x, y)
+
+def lcm():
+    return math.lcm(42, 43)

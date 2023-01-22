@@ -7,4 +7,4 @@ def compute_sum_of_powers():
     return total
 
 total = compute_sum_of_powers()
-print(total)
+# print(total)

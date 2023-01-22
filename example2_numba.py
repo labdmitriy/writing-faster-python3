@@ -9,6 +9,7 @@ Numba works great for math heavy loops.
 """
 from numba import jit  # pip install numba
 
+
 @jit
 def compute_sum_of_powers():
     total = 0
@@ -17,7 +18,7 @@ def compute_sum_of_powers():
     return total
 
 total = compute_sum_of_powers()
-print(total)
+# print(total)
 
 # It took 34.4 msec on my computer
 # Just like with numpy in example5.py, benchmarks have to run twice to minimize the performance impact of the import statement

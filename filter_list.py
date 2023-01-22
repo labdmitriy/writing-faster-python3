@@ -32,3 +32,8 @@ def test_filter():
 
 def test_comprehension():
     return [number for number in NUMBERS if number % 2]
+
+
+# Additional solutions
+def test_slicing():
+    return NUMBERS[::2]
